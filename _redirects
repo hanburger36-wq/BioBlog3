@@ -1,6 +1,1 @@
-# Netlify 路径重写规则：允许访问带有或不带斜杠的路径，并确保它们指向正确的 HTML 文件。
-
-/posts/* /posts/first_post/index.html 200
-/posts/* /posts/second_post/index.html 200
-/posts/* /posts/third_post/index.html 200
-/posts/* /posts/forth_post/index.html 200
+/posts/* /posts/:splat/index.html 200
