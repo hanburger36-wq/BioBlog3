@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petri Dish - 生物科普小站</title>
+    <title>Petri Dish - 生物科普</title>
     <!-- 加载 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 加载 Inter 字体 -->
@@ -43,18 +43,18 @@
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <!-- 网站标题 -->
             <a href="#" class="text-3xl font-black gradient-text">
-                🔬 Petri Dish
+                🧫 Petri Dish
             </a>
             
             <!-- 导航标签 (用于切换页面) -->
             <div class="space-x-6">
                 <!-- 博客标签 (默认激活) -->
                 <button id="blog-tab" class="font-medium text-lg pb-1 border-b-2 transition-colors duration-300 tab-active">
-                    博客
+                    BLOGs
                 </button>
                 <!-- 关于我标签 -->
                 <button id="about-tab" class="font-medium text-lg pb-1 border-b-2 border-transparent text-gray-400 hover:text-white transition-colors duration-300">
-                    关于我
+                    About Me
                 </button>
             </div>
         </nav>
@@ -77,22 +77,22 @@
                         例如: <img src="你的图片链接.png" class="w-8 h-8 mr-3" alt="装饰">
                     -->
                     <span class="text-4xl mr-3" title="DNA">🧬</span>
-                    置顶文章
+                    TOP NEWS!
                 </h2>
                 <div class="bg-gray-800/50 rounded-2xl shadow-2xl overflow-hidden md:flex group">
                     <img src="https://placehold.co/800x600/6D28D9/FEF08A?text=Feature+Image" alt="[置顶文章封面]" class="w-full md:w-1/2 h-64 md:h-auto object-cover transition-transform duration-500 group-hover:scale-105">
                     <div class="p-8 md:p-12 flex flex-col justify-center">
                         <span class="text-xs font-bold text-fuchsia-400 bg-fuchsia-900/50 px-3 py-1 rounded-full self-start mb-4">
-                            重磅科普
+                            Woah bro! 
                         </span>
                         <h3 class="text-3xl font-bold mb-4 text-white">
-                            <a href="#" class="hover:text-fuchsia-300 transition-colors">CRISPR-Cas9: 革命性的基因魔剪</a>
+                            <a href="#" class="hover:text-fuchsia-300 transition-colors">Undecided</a>
                         </h3>
                         <p class="text-gray-300 leading-relaxed mb-6">
-                            它如何工作？它将如何改变我们的未来？一篇长文带你深入了解这项诺贝尔奖级的技术...
+                            Basic introduction. 
                         </p>
                         <a href="#" class="font-semibold text-fuchsia-400 group-hover:text-fuchsia-300 transition-colors">
-                            深入阅读 <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
+                            READ <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
                         </a>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
 
             <!-- 博客文章列表 -->
             <section>
-                <h2 class="text-3xl font-bold mb-8">所有文章</h2>
+                <h2 class="text-3xl font-bold mb-8">All blogs</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <!-- 博客卡片 1 (模板) -->
@@ -110,17 +110,17 @@
                         </a>
                         <div class="p-6 flex flex-col flex-grow">
                             <span class="text-xs font-bold text-cyan-400 bg-cyan-900/50 px-3 py-1 rounded-full self-start mb-3">
-                                细胞生物学
+                                Cell Biology
                             </span>
                             <h3 class="text-xl font-bold mb-3 text-white">
-                                <a href="#" class="hover:text-cyan-300 transition-colors">神奇的线粒体</a>
+                                <a href="#" class="hover:text-cyan-300 transition-colors">Mitochondria</a>
                             </h3>
                             <p class="text-gray-300 text-sm leading-relaxed flex-grow">
-                                不只是“能量工厂”，它们还是细胞生命的“指挥官”...
+                                Basic introduction blblablablablablabla
                             </p>
                             <div class="mt-6">
                                 <a href="#" class="font-semibold text-cyan-400 group-hover:text-cyan-300 transition-colors">
-                                    阅读更多 <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
+                                    READ <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
                                 </a>
                             </div>
                         </div>
@@ -133,17 +133,17 @@
                         </a>
                         <div class="p-6 flex flex-col flex-grow">
                             <span class="text-xs font-bold text-lime-400 bg-lime-900/50 px-3 py-1 rounded-full self-start mb-3">
-                                植物学
+                                Plot(忘了怎么拼了
                             </span>
                             <h3 class="text-xl font-bold mb-3 text-white">
-                                <a href="#" class="hover:text-lime-300 transition-colors">光合作用的秘密</a>
+                                <a href="#" class="hover:text-lime-300 transition-colors">Photosynthesis</a>
                             </h3>
                             <p class="text-gray-300 text-sm leading-relaxed flex-grow">
-                                深入了解叶绿体如何将光能转化为化学能...
+                                Chloroloreoboplast
                             </p>
                             <div class="mt-6">
                                 <a href="#" class="font-semibold text-lime-400 group-hover:text-lime-300 transition-colors">
-                                    阅读更多 <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
+                                    READ <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
                                 </a>
                             </div>
                         </div>
@@ -156,17 +156,17 @@
                         </a>
                         <div class="p-6 flex flex-col flex-grow">
                             <span class="text-xs font-bold text-pink-400 bg-pink-900/50 px-3 py-1 rounded-full self-start mb-3">
-                                免疫学
+                                Immunology(我造的词)
                             </span>
                             <h3 class="text-xl font-bold mb-3 text-white">
-                                <a href="#" class="hover:text-pink-300 transition-colors">T细胞的“刺客”本能</a>
+                                <a href="#" class="hover:text-pink-300 transition-colors">T cells in Noble prize??</a>
                             </h3>
                             <p class="text-gray-300 text-sm leading-relaxed flex-grow">
-                                它们是如何在你的身体里巡逻并消灭威胁的...
+                                Basic information. 
                             </p>
                             <div class="mt-6">
                                 <a href="#" class="font-semibold text-pink-400 group-hover:text-pink-300 transition-colors">
-                                    阅读更多 <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
+                                    READ <span class="opacity-0 group-hover:opacity-100 group-hover:ml-1 transition-all duration-300">&rarr;</span>
                                 </a>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
             <section class="max-w-3xl mx-auto bg-gray-800/50 rounded-2xl shadow-2xl p-10 md:p-16">
                 
                 <h2 class="text-4xl font-bold mb-8 gradient-text text-center">
-                    关于我
+                    About Me
                 </h2>
 
                 <!-- 
@@ -195,16 +195,16 @@
                 <img src="https://placehold.co/300x300/1F2937/9CA3AF?text=你的可爱画作:)" alt="[这里放你的画作描述]" class="float-right m-4 rounded-lg w-32 md:w-48 shadow-lg transform rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105">
 
                 <p class="text-lg text-gray-200 leading-relaxed mb-4">
-                    你好我是hanburger。这里所有的代码全部都是ai写的。
+                    没错，这里所有的代码全部都是ai写的。
                 </p>
                 <p class="text-gray-300 leading-relaxed mb-4">
-                    我是一名对生物世界充满好奇的高中生。从微观的细胞器到宏观的生态系统，这个学科里的一切都让我着迷。
+                    而且现在里面内容还没有搭，我还不太会搭
                 </p>
                 <p class="text-gray-300 leading-relaxed mb-4">
-                    建立这个网站，是希望用一种生动（也许还有点“酷”）的方式，记录我学到的知识，分享我看到的奇妙生物现象。
+                    还需要花一些插图放进来，总之还有很多工作。
                 </p>
                 <p class="text-gray-300 leading-relaxed">
-                    除了埋头看书和做实验，我还超喜欢画画！所以你会发现网站的一些角落（比如这里！）有我的涂鸦。希望这些小装饰能让科学知识变得更“友好”一点。
+                    其实我根本看不懂这些代码，哈哈哈哈哈。没事我觉得以后哪里想改学哪里，一点一点学就可以
                 </p>
                 <p class="text-gray-300 leading-relaxed mt-6">
                     感谢你的访问，希望你在这里玩得开心！
